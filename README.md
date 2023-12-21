@@ -1,7 +1,7 @@
 # **Movie-Recommendation-System**
 **URL** : https://movie-recommendation-system11-5f5a9cacdfb7.herokuapp.com/
 
- **Steps** **/n**
+ **Steps** 
 **Step 1: Data Loading and Preprocessing**
 •	In this project, we begin by loading movie datasets from Kaggle. These datasets contain information about movies, including details like titles, genres, keywords, cast, crew, and overviews.
 
