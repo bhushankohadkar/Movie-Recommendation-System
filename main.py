@@ -3,11 +3,13 @@ import pickle
 import pandas as pd
 import requests
 from PIL.Image import Image
+import joblib
 
-movies_list = pickle.load(open('movie_dict.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
+movies_list = joblib.load('movie_dict.pkl')
+similarity = joblib.load('similarity.pkl')
 
-
+# movies_list = pickle.load(open('movie_dict.pkl','rb'))
+# similarity = pickle.load(open('similarity.pkl','rb'))
 
 movies = pd.DataFrame(movies_list)
 
